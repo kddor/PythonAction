@@ -1,3 +1,12 @@
+'''
+SMOTE（Synthetic Minority Oversampling Technique），合成少数类过采样技术．
+它是基于随机过采样算法的一种改进方案，由于随机过采样采取简单复制样本的策略来增加少数类样本，
+这样容易产生模型过拟合的问题，即使得模型学习到的信息过于特别(Specific)而不够泛化(General)，
+SMOTE算法的基本思想是对少数类样本进行分析并根据少数类样本人工合成新样本添加到数据集中
+参考博文：
+http://blog.csdn.net/Yaphat/article/details/52463304
+'''
+
 
 import random
 from sklearn.neighbors import NearestNeighbors
